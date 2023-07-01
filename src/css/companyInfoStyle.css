@@ -1,0 +1,17 @@
+
+
+.infoDiv{
+    width: 700px;
+}
+
+
+.infoDiv h4{
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.infoDiv h3{
+    color: rgb(60, 248, 173);
+    font-size: xx-large;
+    font-weight: 900;
+}

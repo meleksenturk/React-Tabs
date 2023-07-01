@@ -1,0 +1,70 @@
+.loadingDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 300px;
+}
+
+.companies button{
+    border: none;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.companies button:hover{
+    cursor: pointer;
+}
+
+/* .options button:active{
+    background-color: aqua;
+} */
+
+/* .vertical1{
+    border-left: 1px solid rgb(238, 7, 7);
+}
+
+.vertical2{
+    border-left: 1px solid rgb(27, 185, 43);
+} */
+.companyName{
+    display: flex;
+    flex-direction: column;
+}
+
+.companyInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 200px;
+}
+
+.companies .activeButton{
+    border-left: 2px solid green;
+}
+
+.companies .passiveButton{
+    border-left: 2px solid red;
+}
